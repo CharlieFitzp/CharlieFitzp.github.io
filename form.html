@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <style type="text/css">
+        * {
+            padding: 0; 
+            margin: 0;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        nav {
+            background: #ed8c8c;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {font-size: 35px; font-weight: 600;color: #fff;}
+
+        nav li {list-style: none; display: inline-block;}
+
+        nav li a {color: #fff; font-size: 18px; font-weight: bold; margin-right: 25px;}
+        nav li a:hover {background-color: #fff; color: #000; border-radius: 10px; padding:5px;}
+
+        form lable {font-size: 20px;}
+        form {
+            margin-left: 35%;
+            padding: 20px; 
+            border-style: solid; 
+            border-width: 10px; 
+            border-radius: 10px; 
+            width: 25%;
+        }
+
+        footer {
+            background: #ed8c8c;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        footer ul {display:inline-block; margin: 2px 57px; list-style-type:none}
+        footer ul li {padding: 5px; color: #fff; font-size: 30px}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Cupid's Courier</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <form action="#">
+        <lable>Your Name:</lable><br>
+        <input type="text"><br>
+        <lable>Email:</lable><br>
+        <input type="text"><br>
+        <lable>Phone Number:</lable><br>
+        <input type="text"><br>
+        <lable>Recipient's Name:</lable><br>
+        <input type="text"><br>
+        <lable>Recipient's Email:</lable><br>
+        <input type="text"><br>
+        <lable>Recipient's Phone Number:</lable><br>
+        <input type="text"><br>
+        <lable>Relationship to Recipient:</lable><br>
+        <select>
+            <option>Significant Other</option>
+            <option>Friend</option>
+            <option>Family</option>
+            <option>Yourself</option>
+        </select><br>
+        <lable>Recipient's Interests:</lable><br>
+        <input type="checkbox">Fashion & Jewelry<br>
+        <input type="checkbox">Food & Drink<br>
+        <input type="checkbox">Fitness & Healthk<br>
+        <input type="checkbox">Books & Reading<br>
+        <input type="checkbox">Tech Gadgets<br>
+        <input type="checkbox">Art & Music<br>
+        <input type="checkbox">Travel & Experiences<br>
+        <input type="checkbox">Personalized Gifts<br>
+        <lable>Gift Preferences:</lable><br>
+        <input type="radio" name="pref" value="Rom">Romantic Gift<br>
+        <input type="radio" name="pref" value="Fun">Fun & Quirky Gift<br>
+        <input type="radio" name="pref" value="Pers">Thoughtful & Personalized<br>
+        <input type="radio" name="pref" value="lux">Luxury Gift<br>
+        <input type="radio" name="pref" value="hand">Something Unique & Handmade<br>
+        <lable>Delivery Address:</lable><br>
+        <input type="text"><br>
+        <lable>Special Message:</lable><br>
+        <textarea rows="4" cols="8"></textarea><br>
+        <input type="submit">
+    </form>
+    <footer>
+        <ul>
+            <li>Email: cupidcourier@gmail.com</li>
+            <li>Phone: 1-800-COURIER</li>
+            <li>Location: 14 Valentine Ave</li>
+        </ul>
+    </footer>
+</body>
+</html>
